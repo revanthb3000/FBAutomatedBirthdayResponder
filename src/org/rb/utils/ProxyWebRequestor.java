@@ -11,6 +11,7 @@ import com.restfb.DefaultWebRequestor;
 public class ProxyWebRequestor extends DefaultWebRequestor {
 	
 	protected HttpURLConnection openConnection(URL url) throws IOException {
+		
 		if (System.getProperty("http.proxySet").equals("true")) {
 			String host = System.getProperty("http.proxyHost");
 			Integer port = Integer.parseInt(System.getProperty("http.proxyPort"));

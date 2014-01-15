@@ -94,6 +94,5 @@ public class MainApp {
 		});
 		btnThankTheWorld.setBounds(128, 224, 159, 26);
 		frame.getContentPane().add(btnThankTheWorld);
-		
 	}
 }
