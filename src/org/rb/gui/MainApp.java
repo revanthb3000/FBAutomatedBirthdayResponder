@@ -51,6 +51,8 @@ public class MainApp {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
+		System.setProperty("http.proxySet", "false");
+
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
