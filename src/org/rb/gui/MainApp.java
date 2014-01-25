@@ -3,16 +3,11 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
-import java.awt.Button;
-import java.awt.BorderLayout;
 
 import javax.swing.JButton;
-import javax.swing.SwingConstants;
-import javax.swing.JTextArea;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-import org.eclipse.swt.browser.Browser;
 import org.rb.fb.FBFunctions;
 
 import java.awt.event.ActionListener;
@@ -51,7 +46,7 @@ public class MainApp {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		System.setProperty("http.proxySet", "false")
+		System.setProperty("http.proxySet", "false");
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

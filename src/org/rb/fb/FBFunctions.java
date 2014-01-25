@@ -29,7 +29,8 @@ public class FBFunctions {
 	public static void setProxy() {
 		Authenticator authenticator = new Authenticator() {
 			public PasswordAuthentication getPasswordAuthentication() {
-				return (new PasswordAuthentication("username","password".toCharArray()));
+				return (new PasswordAuthentication("b.revanth",
+						"batman9903".toCharArray()));
 			}
 		};
 		Authenticator.setDefault(authenticator);
